@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Monte uma seleção de itens de mercearia fictícios e acompanhe o valor total antes de finalizar a lista.">
+    <title>
+      Lista do Mercado
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js">
+    </script>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="marca" href="index.html">
+        PROJETO
+        <span>
+          ·
+        </span>
+        Lista
+      </a>
+      <span class="selo">
+        DEMONSTRAÇÃO LOCAL
+      </span>
+    </header>
+    <main>
+      <section class="abertura">
+        <p class="sobretitulo">
+          ESTUDO INTERATIVO · JAVASCRIPT
+        </p>
+        <h1>
+          Lista do Mercado
+        </h1>
+        <p class="introducao">
+          Monte uma seleção de itens de mercearia fictícios e acompanhe o valor total antes de finalizar a lista.
+        </p>
+      </section>
+      <section class="grade">
+        <section class="painel">
+          <h2>
+            Itens disponíveis
+          </h2>
+          <div id="produtos" class="lista">
+          </div>
+        </section>
+        <section class="painel">
+          <h2>
+            Sua lista
+          </h2>
+          <ul id="carrinho" class="lista" aria-live="polite">
+          </ul>
+          <p id="total">
+            <strong>
+              Total: R$ 0,00
+            </strong>
+          </p>
+          <button id="limpar">
+            Limpar seleção
+          </button>
+        </section>
+      </section>
+    </main>
+    <footer>
+      Projeto demonstrativo independente · dados fictícios · sem serviços externos
+    </footer>
+  </body>
+</html>
+
